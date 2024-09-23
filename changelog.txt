@@ -1,0 +1,6 @@
+0.1 Added a file handeling class and the following methods for said class
+    fileHandeling();
+    void displayFileNamesBulk();
+    void displayFileNamesSingle();
+    string getFileName(int);
+    bool fileExists(string);
