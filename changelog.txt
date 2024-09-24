@@ -1,6 +1,12 @@
+0.2 Added two new complete file handeling classes and one unfinished methods
+    addFile();
+    unzipFolder();
+    folderContnetMove();
+
 0.1 Added a file handeling class and the following methods for said class
     fileHandeling();
     void displayFileNamesBulk();
     void displayFileNamesSingle();
     string getFileName(int);
     bool fileExists(string);
+

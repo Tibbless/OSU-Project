@@ -30,7 +30,15 @@ class fileHandeling {
         // Check if a file exists based on a name given. true for exists false for doesnt exist
         bool fileExists(string);
 
+        // Adds a file given the path and file name
+        bool addFile(string, string);
 
+        // unzips a given folder
+        bool unzipFolder(string, string);
+
+        // moves content of a folder
+        bool folderContnetMove(string);
+    
 };  
 
 
