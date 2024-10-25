@@ -7,12 +7,10 @@
 #include <vector>
 #include <map>
 
-using namespace std;
-
 class fileHandeling {
 
     private: 
-        map<string, string> files;
+        std::map<std::string, std::string> files;
 
     public:
         // Constructor
@@ -25,19 +23,19 @@ class fileHandeling {
         void displayFileNamesSingle();
 
         // Get a single file name based on its indici
-        string getFileName(int);
+        std::string getFileName(int);
         
         // Check if a file exists based on a name given. true for exists false for doesnt exist
-        bool fileExists(string);
+        bool fileExists(std::string);
 
         // Adds a file given the path and file name
-        bool addFile(string, string);
+        bool addFile(std::string, std::string);
 
         // unzips a given folder
-        bool unzipFolder(string, string);
+        bool unzipFolder(std::string, std::string);
 
         // moves content of a folder
-        bool folderContnetMove(string);
+        bool folderContnetMove(std::string);
     
 };  
 
